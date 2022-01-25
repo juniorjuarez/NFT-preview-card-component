@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 300, 400, 600;
+    
+}
+
+.main-container{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-content{
+    display: flex;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 12px;
+    width: 280px;
+    height: 480px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image{
+    position: relative;
+}
+
+.mainImg{
+    margin-top: 15px;
+    width: 250px;
+    height: 255px;
+
+}
+
+.mainImg{
+    border-radius: 8px;
+    width: 250px;
+    cursor: pointer;
+}
+
+.image div {
+    position: absolute;
+    background-color: hsl(178, 100%, 50%, 60%);
+    top: 15px;
+    width: 100%;
+    height: 94%;
+    opacity: 0;
+  }
+
+  .image div img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .image div:hover {
+    opacity: 1;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+.content-item{
+    width: 90%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-item h4{
+    cursor: pointer;
+    color:#fff;
+    margin-bottom: 15px; 
+}
+
+.content-item h4:hover{
+    color: #53b6c5; 
+}
+
+.content-item p {
+    width: 90%;
+    font-weight: bold;
+    font-size: 13px;
+    color: #6084a9;
+}
+
+.content-span{
+    margin-top: 20px;
+    width: 90%;
+    display: flex;  
+    justify-content: space-between; 
+}
+
+.span-item{
+    width: 31%;
+    font-size: 11px; 
+    font-weight: bold;
+    display: flex;
+}
+.span-item span{
+    margin-top: 3px;
+    margin-left: 5px;
+}
+#preco{
+    color:hsl(178, 100%, 50%, 60%);    
+}
+
+#date{
+    color: #6084a9;
+}
+
+.bar{
+    width: 88%;
+    margin-top: 25px;
+    border-top: 0.01rem solid #253a53;
+}
+
+.user{
+    width: 90%;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+      font-weight: bold;
+}
+
+
+
+.userImg img{    
+    border: 1px solid white;
+    border-radius: 100%;
+    width: 25px;
+    margin-right: 15px;
+    
+}
+
+.userName{
+    color: #6084a9;
+    font-size: 11px; 
+}
+
+.userName a{
+    color: #fff;
+    font-size: 11px; 
+    text-decoration: none;
+    
+}
+
+.userName a:hover{
+    color: hsl(178, 100%, 50%, 60%);
+}
